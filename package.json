@@ -1,0 +1,26 @@
+{
+  "name": "post-elastic",
+  "version": "1.0.0",
+  "description": "post request to an endpoint with an elasticsearch formated payload",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/post-elastic.git"
+  },
+  "author": "SimonLab <simon@foundersandcoders.com> (https://github.com/SimonLab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/post-elastic/issues"
+  },
+  "homepage": "https://github.com/SimonLab/post-elastic#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "nock": "^8.0.0",
+    "tape": "^4.5.1"
+  }
+}
