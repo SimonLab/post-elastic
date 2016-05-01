@@ -3,7 +3,7 @@ post request to an endpoint with an elasticsearch formated payload:
 
 ```
 {
-  table: elasticsearch-table,
+  type: elasticsearch-table,
   payload: json-object
 }
 ```
